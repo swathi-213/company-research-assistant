@@ -1,0 +1,26 @@
+{
+  "default_provider": "groq", 
+  "providers": {
+    "groq": {
+      "display_name": "Groq (Free Tier)",
+      "description": "Free high-performance inference with Llama models. Fast and cost-effective for research tasks.",
+      "api_key_env": "GROQ_API_KEY",
+      "models": {
+        "research_model": "llama-3.3-70b-versatile",
+        "final_report_model": "llama-3.3-70b-versatile",
+        "compression_model": "llama-3.3-8b-instant",
+        "summarization_model": "llama-3.3-8b-instant"
+      }
+    }
+  },
+  "research_defaults": {
+    "max_iterations": 1,
+    "max_tool_calls": 5,
+    "allow_clarification": false,
+    "max_concurrent": 2,
+    "timeout_minutes": 15,
+    "search_api": "duckduckgo"
+  }
+}
+
+

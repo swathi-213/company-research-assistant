@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# Project specific
+research_documents/
+runs/
+*.log
+*.tmp
+temp/
+tmp/
+
+# Test files
+test_*.py
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation drafts
+*_old.md
+*_FIXES.md
+*_STATUS.md
+*_GUIDE.md
+*_COMPLETE.md
+
+# API Keys and Secrets
+.env
+.env.local
+.env.*.local
+secrets.toml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.backup
+*~
+*.old
