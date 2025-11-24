@@ -570,7 +570,3 @@ This project is licensed under the MIT License.
 For issues, questions, or suggestions:
 - Open an issue on GitHub
 - Star the repository if you find it useful!
-
----
-
-**Built with ❤️ using AI-powered development**
